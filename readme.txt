@@ -1,5 +1,4 @@
-git 
-git is a nice tool
+git
+git is opensource
 git is free software
-
 add a line
