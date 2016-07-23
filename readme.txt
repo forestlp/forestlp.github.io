@@ -2,4 +2,4 @@ git
 git is opensource
 git is free software
 add a line
-Ñ§Ï°£¬ÇÚÉí£¬¾²ĞÄ£¬¿ªÎò¡£
+å­¦ä¹ ï¼Œå‹¤èº«ï¼Œé™å¿ƒï¼Œé¢†æ‚Ÿã€‚
