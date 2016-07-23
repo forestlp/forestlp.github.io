@@ -2,4 +2,4 @@ git
 git is opensource
 git is free software
 add a line
-学习，勤身，静心，领悟。
+学习，勤身，反省，领悟。second
