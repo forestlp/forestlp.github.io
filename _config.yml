@@ -13,23 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Your awesome title"
-email: lanlin3101@outlook.com
+title: Your awesome title 
+email: lanlin3101@outlook.com 
 description: >- # this means to ignore newlines until "baseurl:"
-                                道可道非常道，名可名非常名。
-                      上善若水，水善利万物而不争，处众人之所恶，故几於道。
-             居善地，心善渊，与善仁，言善信，正善治，事善能，动善时。夫唯不争，故无尤。
-                                   以其不自生，故能长生。
+                                道可道非常道，名可名非常名。 
+                      上善若水，水善利万物而不争，处众人之所恶，故几於道。 
+             居善地，心善渊，与善仁，言善信，正善治，事善能，动善时。夫唯不争，故无尤。 
+                                   以其不自生，故能长生。 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username: forestlp
+github_username: forestlp 
 
 # Build settings
-markdown: kramdown
-theme: minima
+markdown: kramdown 
+theme: minima 
 plugins:
-  - jekyll-feed
+  - jekyll-feed 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
