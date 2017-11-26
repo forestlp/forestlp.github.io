@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="关于前端与设计、黑客与画家 | 兰林，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Lanin兰林 的个人博客，与你一起发现更大的世界。">
+    <meta name="keywords"  content="兰林, Lanin兰林, Lanin, 鬼栈, 七星龙井, @七星龙井, 兰林的博客, Lanin Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计">
+    <meta name="theme-color" content="#000000">
+    
+    <title>常用链接 - 兰林的博客 | Lanin Blog</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://0.0.0.0:4000/2017/11/24/commonly-used-link/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/Lanin-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+   
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Lanin Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/portfolio/">Portfolio</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/tags/">Tags</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/post-common-link.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/post-common-link.jpg')
+    }
+
+    
+</style>
+<header class="intro-header" >
+    <div class="header-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#收藏" title="收藏">收藏</a>
+                        
+                    </div>
+                    <h1>常用链接</h1>
+                    
+                    
+                    <h2 class="subheading">工具</h2>
+                    
+                    <span class="meta">Posted by xxx on November 24, 2017</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <!-- Multi-Lingual -->
+                
+
+				<table>
+  <thead>
+    <tr>
+      <th>常用链接</th>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>查询</td>
+      <td style="text-align: center"><a href="https://ip.51240.com" target="_blank">ip查询</a></td>
+      <td style="text-align: center"><a href="http://ip.chinaz.com" target="_blank">whois</a></td>
+      <td style="text-align: center"><a href="http://www.gsxt.gov.cn" target="_blank">企业信用</a></td>
+      <td style="text-align: center"><a href="http://haoma.baidu.com/query" target="_blank">电话号码</a></td>
+      <td style="text-align: center"><a href="http://hao.199it.com/" target="_blank">大数据查询</a></td>
+      <td style="text-align: center"><a href="http://chuansong.me/" target="_blank">微信传送</a></td>
+      <td style="text-align: center"><a href="http://www.xjishu.com" target="_blank">专利查询</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>工具</td>
+      <td style="text-align: center"><a href="http://manual.51yip.com" target="_blank">程序手册</a></td>
+      <td style="text-align: center"><a href="http://man.linuxde.net/" target="_blank">linux命令</a></td>
+      <td style="text-align: center"><a href="http://linux.51yip.com/" target="_blank">linux命令</a></td>
+      <td style="text-align: center"><a href="http://os.51cto.com/art/201405/438615.htm" target="_blank">故障排查</a></td>
+      <td style="text-align: center"><a href="https://www.cyberciti.biz/faq/" target="_blank">linux-faq</a></td>
+      <td style="text-align: center"><a href="https://cloud.tencent.com/act/event/ci_demo.html" target="_blank">OCR识别</a></td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>搜索</td>
+      <td style="text-align: center"><a href="https://www.rambler.ru/" target="_blank">俄罗斯</a></td>
+      <td style="text-align: center"><a href="http://search.chongbuluo.com" target="_blank">快搜</a></td>
+      <td style="text-align: center"><a href="https://sg.search.yahoo.com/" target="_blank">雅虎1</a></td>
+      <td style="text-align: center"><a href="https://search.yahoo.com/" target="_blank">雅虎2</a></td>
+      <td style="text-align: center"><a href="https://de.search.yahoo.com/" target="_blank">德国雅虎</a></td>
+      <td style="text-align: center"><a href="http://www.findarticles.com/" target="_blank">找文章</a></td>
+      <td style="text-align: center"><a href="http://ac.scmor.com/" target="_blank">google</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="https://cn.bing.com/" target="_blank">必应</a></td>
+      <td style="text-align: center"><a href="https://www.naver.com/" target="_blank">韩国门户</a></td>
+      <td style="text-align: center"><a href="https://www.urdupoint.com/" target="_blank">巴基斯坦</a></td>
+      <td style="text-align: center"><a href="http://www.chinese.net.nz/" target="_blank">新西兰</a></td>
+      <td style="text-align: center"><a href="http://www.swissinfo.ch/" target="_blank">瑞士中文</a></td>
+      <td style="text-align: center"><a href="http://www.turboscout.com/" target="_blank">搜索大杀器</a></td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href=""></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>前沿技术</td>
+      <td style="text-align: center"><a href="https://www.leiphone.com/" target="_blank">智能</a></td>
+      <td style="text-align: center"><a href="http://www.yiibai.com/" target="_blank">编程教程</a></td>
+      <td style="text-align: center"><a href="http://www.elecfans.com/" target="_blank">电子电路</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>镜像下载</td>
+      <td style="text-align: center"><a href="http://mirrors.163.com/" target="_blank">163镜像</a></td>
+      <td style="text-align: center"><a href="http://mirrors.aliyun.com/" target="_blank">阿里镜像</a></td>
+      <td style="text-align: center"><a href="http://mirrors.ustc.edu.cn/" target="_blank">中科大</a></td>
+      <td style="text-align: center"><a href="https://mirror.tuna.tsinghua.edu.cn" target="_blank">清华镜像</a></td>
+      <td style="text-align: center"><a href="http://ftp.twaren.net/FreeBSD/releases/" target="_blank">台湾镜像</a></td>
+      <td style="text-align: center"><a href="https://npm.taobao.org/" target="_blank">NPM镜像</a></td>
+      <td style="text-align: center"><a href="http://ftp.freebsd.org/pub/FreeBSD/releases/" target="_blank">freeBSD</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="https://get.debian.org/images/archive/" target="_blank">debian老</a></td>
+      <td style="text-align: center"><a href="http://archive.kernel.org/centos-vault/" target="_blank">centos老</a></td>
+      <td style="text-align: center"><a href="https://mirrors.ustc.edu.cn/ubuntu-old-releases/releases/" target="_blank">ubuntu老   </a></td>
+      <td style="text-align: center"><a href="http://cdimage.debian.org/cdimage/openstack/" target="_blank">debian云</a></td>
+      <td style="text-align: center"><a href="http://cloud.centos.org/centos/" target="_blank">centos云</a></td>
+      <td style="text-align: center"><a href="http://cloud-images.ubuntu.com/releases/" target="_blank">ubuntu云</a></td>
+      <td style="text-align: center"><a href="https://cloudbase.it/cloudbase-init/#download" target="_blank">windows云</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>软件下载</td>
+      <td style="text-align: center"><a href="http://rj.baidu.com/" target="_blank">windows</a></td>
+      <td style="text-align: center"><a href="http://win.softpedia.com/" target="_blank">软件集合</a></td>
+      <td style="text-align: center"><a href="http://www.zdfans.com/" target="_blank">软件分享</a></td>
+      <td style="text-align: center"><a href="http://free.nchc.org.tw" target="_blank">台湾软件</a></td>
+      <td style="text-align: center"><a href="http://www.nirsoft.net/" target="_blank">国外软件</a></td>
+      <td style="text-align: center"><a href="https://briian.com/" target="_blank">台湾软体</a></td>
+      <td style="text-align: center"><a href="http://www.apprcn.com/" target="_blank">反斗软件</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="https://pkgs.org/" target="_blank">linux软件</a></td>
+      <td style="text-align: center"><a href="http://rpm.pbone.net/" target="_blank">rpm包</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="https://apps.evozi.com/apk-downloader/" target="_blank">手机APP</a></td>
+      <td style="text-align: center"><a href="http://www.cosa.org.tw/" target="_blank">民国系统</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="https://www.zhihu.com/question/36546814" target="_blank">软件分享</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>图片</td>
+      <td style="text-align: center"><a href="https://alpha.wallhaven.cc/" target="_blank">壁纸</a></td>
+      <td style="text-align: center"><a href="http://wallpaperpulse.com/" target="_blank">无码图</a></td>
+      <td style="text-align: center"><a href="https://pixabay.com/" target="_blank">高清矢量</a></td>
+      <td style="text-align: center"><a href="https://unsplash.com/" target="_blank">无水印</a></td>
+      <td style="text-align: center"><a href="https://www.deviantart.com" target="_blank">动漫图</a></td>
+      <td style="text-align: center"><a href="https://www.artstation.com/" target="_blank">艺术会展</a></td>
+      <td style="text-align: center"><a href="http://streetpeeper.com/" target="_blank">街拍</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="https://www.imaiges.com/" target="_blank">AI图片</a></td>
+      <td style="text-align: center"><a href="http://instantlogosearch.com/" target="_blank">logo</a></td>
+      <td style="text-align: center"><a href="http://www.iconfont.cn/" target="_blank">icon</a></td>
+      <td style="text-align: center"><a href="http://www.easyicon.net/" target="_blank">easyicon</a></td>
+      <td style="text-align: center"><a href="http://ico.duduxuexi.com/" target="_blank">生成icon</a></td>
+      <td style="text-align: center"><a href="http://fotoforensics.com/" target="_blank">检查PS</a></td>
+      <td style="text-align: center"><a href="http://zhongguose.com/" target="_blank">中国色</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="https://gratisography.com/" target="_blank">好图下载</a></td>
+      <td style="text-align: center"><a href="https://www.pinterest.com/">照片分享</a></td>
+      <td style="text-align: center"><a href="http://www.airpano.com/" target="_blank">360°全景</a></td>
+      <td style="text-align: center"><a href="http://btlondon2012.co.uk/pano.html" target="_blank">伦敦全景</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>电影</td>
+      <td style="text-align: center"><a href="http://www.id97.com/" target="_blank">pv电影</a></td>
+      <td style="text-align: center"><a href="http://akas.imdb.com/" target="_blank">英文电影</a></td>
+      <td style="text-align: center"><a href="http://dianying.fm" target="_blank">电影FM</a></td>
+      <td style="text-align: center"><a href="http://neets.cc/" target="_blank">私人VIP</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>创作</td>
+      <td style="text-align: center"><a href="http://bomomo.com/" target="_blank">创意涂鸦</a></td>
+      <td style="text-align: center"><a href="http://mrdoob.com/projects/harmony/#web" target="_blank">简单涂鸦</a></td>
+      <td style="text-align: center"><a href="http://tholman.com/texter/" target="_blank">字条艺术</a></td>
+      <td style="text-align: center"><a href="https://www.autodraw.com/" target="_blank">简画</a></td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>新奇</td>
+      <td style="text-align: center"><a href="http://www.vill.ee/eye/" target="_blank">模拟眼球</a></td>
+      <td style="text-align: center"><a href="http://youquhome.com/" target="_blank">有趣网址</a></td>
+      <td style="text-align: center"><a href="https://www.skillscommons.org/" target="_blank">分享平台</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>娱乐</td>
+      <td style="text-align: center"><a href="https://threejs.org/" target="_blank">一探究竟</a></td>
+      <td style="text-align: center"><a href="http://cn.akinator.com/" target="_blank">你在想啥</a></td>
+      <td style="text-align: center"><a href="http://www.20q.net/" target="_blank">猜你所想</a></td>
+      <td style="text-align: center"><a href="https://quickdraw.withgoogle.com/" target="_blank">你画我猜</a></td>
+      <td style="text-align: center"><a href="http://chaxun.kmguolv.com/gangqin/" target="_blank">键盘钢琴</a></td>
+      <td style="text-align: center"><a href="http://www.theuselessweb.com/" target="_blank">无聊</a></td>
+      <td style="text-align: center"><a href="http://findingho.me/" target="_blank">飞行体验</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="http://emojisandearthporn.com/" target="_blank">谁不动</a></td>
+      <td style="text-align: center"><a href="https://tic.computer/" target="_blank">小游戏</a></td>
+      <td style="text-align: center"><a href="https://123.kfd.me/" target="_blank">有趣网站</a></td>
+      <td style="text-align: center"><a href="http://www.u148.net/" target="_blank">有意思吧</a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>天文地理</td>
+      <td style="text-align: center"><a href="https://www.nationalgeographic.com/" target="_blank">国家地理</a></td>
+      <td style="text-align: center"><a href="http://stellarium.org/zh_CN/" target="_blank">天象模拟</a></td>
+      <td style="text-align: center"><a href="http://hubblesite.org/" target="_blank">哈勃星空</a></td>
+      <td style="text-align: center"><a href="https://www.meteorshowers.org/" target="_blank">太空流星</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>艺术</td>
+      <td style="text-align: center"><a href="http://www.voicer.me/" target="_blank">生活设计</a></td>
+      <td style="text-align: center"><a href="http://www.topys.cn/" target="_blank">创意分享</a></td>
+      <td style="text-align: center"><a href="http://www.welovead.com/cn/" target="_blank">广告设计</a></td>
+      <td style="text-align: center"><a href="http://sugoude.inuiyosuke.jp/" target="_blank">日本艺人</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>电子书</td>
+      <td style="text-align: center"><a href="http://it-ebooks.info/" target="_blank">IT书籍E</a></td>
+      <td style="text-align: center"><a href="https://www.gitbook.com/" target="_blank"> gitbook</a></td>
+      <td style="text-align: center"><a href="http://www.gutenberg.org/" target="_blank">免费英文</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>音乐</td>
+      <td style="text-align: center"><a href="https://www.soundsnap.com/" target="_blank">音效下载</a></td>
+      <td style="text-align: center"><a href="https://asoftmurmur.com/" target="_blank">放松听</a></td>
+      <td style="text-align: center"><a href="http://www.rainymood.com/" target="_blank">雨声</a></td>
+      <td style="text-align: center"><a href="https://coffitivity.com/" target="_blank">场景雨声</a></td>
+      <td style="text-align: center"><a href="http://www.xiami.com/" target="_blank">虾米音乐</a></td>
+      <td style="text-align: center"><a href="http://www.incredibox.com" target="_blank">弹奏音乐</a></td>
+      <td style="text-align: center"><a href="http://www.360doc.com/content/15/0207/17/5587937_447043703.shtml" target="_blank">mp3外链</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="http://music.163.com/" target="_blank">网易云</a></td>
+      <td style="text-align: center"><a href="https://orgasmsoundlibrary.com/" target="_blank">真实声音</a></td>
+      <td style="text-align: center"><a href="http://fm.xinli001.com" target="_blank">心理FM</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="http://www.52flac.com/" target="_blank">无损音乐</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>文档工具</td>
+      <td style="text-align: center"><a href="https://smallpdf.com/cn" target="_blank">pdf处理</a></td>
+      <td style="text-align: center"><a href="https://www.docspal.com/" target="_blank">格式转换</a></td>
+      <td style="text-align: center"><a href="https://www.islide.cc/" target="_blank">ppt制作</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"> </a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>数学工具</td>
+      <td style="text-align: center"><a href="http://www.wolframalpha.com/" target="_blank">alpha计算</a></td>
+      <td style="text-align: center"><a href="http://webdemo.myscript.com/" target="_blank">脚本计算</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>化学</td>
+      <td style="text-align: center"><a href="http://www.beautifulchemistry.net/home-cn/" target="_blank">美丽化学</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>新闻往事</td>
+      <td style="text-align: center"><a href="http://bbs.tianya.cn/" target="_blank">天涯论坛</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>磁力下载</td>
+      <td style="text-align: center"><a href="http://www.btwhat.info/" target="_blank">btmeet</a></td>
+      <td style="text-align: center"><a href="http://www.btanb.com/" target="_blank">蚂蚁bt</a></td>
+      <td style="text-align: center"><a href="http://www.dhtseek.win/" target="_blank">磁力bt</a></td>
+      <td style="text-align: center"><a href="http://btkitty.fyi/" target="_blank">kittyBT</a></td>
+      <td style="text-align: center"><a href="http://www.btcerise.org/" target="_blank">樱桃bt</a></td>
+      <td style="text-align: center"><a href="https://thepiratebay.cr/" target="_blank">海盗湾</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="http://www.panc.cc/" target="_blank">胖次网盘</a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="http://file2hd.com/" target="_blank">下载工具</a></td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"><a href="" target="_blank"></a></td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+                <hr style="visibility: hidden;">
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2017/11/11/kvm-cpu-men-check/" data-toggle="tooltip" data-placement="top" title="kvm物理机资源检查脚本">
+                        Previous<br>
+                        <span>kvm物理机资源检查脚本</span>
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+
+
+                
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
+
+                
+            </div>  
+
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="https://weibo.com/u/5116858666?is_all=1&ssl_rnd=1511287309.4975">婷婷</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "Lanin";
+    var disqus_identifier = "/2017/11/24/commonly-used-link";
+    var disqus_url = "http://0.0.0.0:4000/2017/11/24/commonly-used-link/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/七星龙井">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/七星龙井">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/forestlp">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; Lanin Blog 2017
+                    <br>
+                        Thanks to <a href="https://github.com/ShenBao/">shenbao</a> |
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/Lanin-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Laninblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async('/js/jquery.tagcloud.js',function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Lanin
+    var _gaId = 'UA-109489951-1';
+    var _gaDomain = '';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog (selector) {
+
+        // interop with multilangual 
+        if () {
+            _containerSelector = 'div.post-container.active'
+        } else {
+            _containerSelector = 'div.post-container'
+        }
+
+        // init
+        var P = $(_containerSelector),a,n,t,l,i,c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        // clean
+        $(selector).html('')
+
+        // appending
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#"+$(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="'+i+'" rel="nofollow">'+t+'</a>');
+            l = $('<li class="'+n+'_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function(e){
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Lanin to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+<!-- Multi-Lingual -->
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
