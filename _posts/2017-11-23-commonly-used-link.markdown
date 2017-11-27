@@ -14,7 +14,7 @@ tags:
 | ---    | :---: | :---:  | :---: | :---:  | :---: | :---:  | :---: |
 | 查询 |[ip查询](https://ip.51240.com){:target="_blank"} | [whois](http://ip.chinaz.com){:target="_blank"} | [企业信用](http://www.gsxt.gov.cn){:target="_blank"} | [电话号码](http://haoma.baidu.com/query){:target="_blank"} | [大数据查询](http://hao.199it.com/){:target="_blank"} | [微信传送](http://chuansong.me/){:target="_blank"} | [专利查询](http://www.xjishu.com){:target="_blank"} | 
 |   | [ ]( ){:target="_blank"} |
-| 工具   | [程序手册](http://manual.51yip.com){:target="_blank"} | [linux命令](http://man.linuxde.net/){:target="_blank"} | [linux命令](http://linux.51yip.com/){:target="_blank"} | [故障排查](http://os.51cto.com/art/201405/438615.htm){:target="_blank"} |  [linux-faq](https://www.cyberciti.biz/faq/){:target="_blank"} | [OCR识别](https://cloud.tencent.com/act/event/ci_demo.html){:target="_blank"} |
+| 工具   | [程序手册](http://manual.51yip.com){:target="_blank"} | [linux命令](http://man.linuxde.net/){:target="_blank"} | [linux命令](http://linux.51yip.com/){:target="_blank"} | [故障排查](http://os.51cto.com/art/201405/438615.htm){:target="_blank"} |  [linux-faq](https://www.cyberciti.biz/faq/){:target="_blank"} | [OCR识别](https://cloud.tencent.com/act/event/ci_demo.html){:target="_blank"} | [ip测试](https://www.ipip.net/){:target="_blank":} | 
 |   | [ ]( ){:target="_blank"} |
 | 搜索 | [俄罗斯](https://www.rambler.ru/){:target="_blank"} | [快搜](http://search.chongbuluo.com){:target="_blank"} | [雅虎1](https://sg.search.yahoo.com/){:target="_blank"} |[雅虎2](https://search.yahoo.com/){:target="_blank"} |  [德国雅虎](https://de.search.yahoo.com/){:target="_blank"} | [找文章](http://www.findarticles.com/){:target="_blank"} | [google](http://ac.scmor.com/){:target="_blank"} | 
 |   | [必应](https://cn.bing.com/){:target="_blank"} | [韩国门户](https://www.naver.com/){:target="_blank"} |  [巴基斯坦](https://www.urdupoint.com/){:target="_blank"} |  [新西兰](http://www.chinese.net.nz/){:target="_blank"} | [瑞士中文](http://www.swissinfo.ch/){:target="_blank"} | [搜索大杀器](http://www.turboscout.com/){:target="_blank"} | 
@@ -34,7 +34,7 @@ tags:
 |   | [ ]( ){:target="_blank"} |
 | 电影| [pv电影](http://www.id97.com/){:target="_blank"} | [英文电影](http://akas.imdb.com/){:target="_blank"} | [电影FM](http://dianying.fm){:target="_blank"} | [私人VIP](http://neets.cc/){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} |
 |   | [ ]( ){:target="_blank"} |
-| 创作 | [创意涂鸦](http://bomomo.com/){:target="_blank"} | [简单涂鸦](http://mrdoob.com/projects/harmony/#web){:target="_blank"} | [字条艺术](http://tholman.com/texter/){:target="_blank"} | [简画](https://www.autodraw.com/){:target="_blank"} | [ ]( ){:target="_blank"} | [](){:target="_blank"} |
+| 创作 | [创意涂鸦](http://bomomo.com/){:target="_blank"} | [简单涂鸦](http://mrdoob.com/projects/harmony/#web){:target="_blank"} | [字条艺术](http://tholman.com/texter/){:target="_blank"} | [简画](https://www.autodraw.com/){:target="_blank"} | [网站设计](http://hao.shejidaren.com/){:target="_blank"} | [](){:target="_blank"} |
 |   | [ ]( ){:target="_blank"} |
 | 新奇 | [模拟眼球](http://www.vill.ee/eye/){:target="_blank"} |  [有趣网址](http://youquhome.com/){:target="_blank"} | [分享平台](https://www.skillscommons.org/){:target="_blank"} | [](){:target="_blank"} |
 |   | [ ]( ){:target="_blank"} |
@@ -56,7 +56,7 @@ tags:
 |   | [](){:target="_blank"} | 
 | 化学 | [美丽化学](http://www.beautifulchemistry.net/home-cn/){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | 
 |   | [](){:target="_blank"} | 
-| 新闻往事 | [天涯论坛](http://bbs.tianya.cn/){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | 
+| 新闻往事 | [天涯论坛](http://bbs.tianya.cn/){:target="_blank"} | [网易数读](http://data.163.com){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | 
 |   | [](){:target="_blank"} | 
 | 磁力下载 | [btmeet](http://www.btwhat.info/){:target="_blank"} | [蚂蚁bt](http://www.btanb.com/){:target="_blank"} | [磁力bt](http://www.dhtseek.win/){:target="_blank"} | [kittyBT](http://btkitty.fyi/){:target="_blank"} | [樱桃bt](http://www.btcerise.org/){:target="_blank"} | [海盗湾](https://thepiratebay.cr/){:target="_blank"} | [](){:target="_blank"} | 
 |   | [胖次网盘](http://www.panc.cc/){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [](){:target="_blank"} | [下载工具](http://file2hd.com/){:target="_blank"} | 
